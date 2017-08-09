@@ -1,7 +1,7 @@
 /* eslint-disable flowtype/require-parameter-type, flowtype/require-return-type */
 import {test} from "tap"
 
-import endsWith from "./"
+import endsWith from "./source.js"
 
 test(({ok, end}) => {
   ok(endsWith("period")("I have no period"))
