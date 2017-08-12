@@ -1,7 +1,7 @@
 /* eslint-disable flowtype/require-parameter-type, flowtype/require-return-type */
 import {test} from "tap"
 
-import domEventsMany from "./source"
+import endsWith from "./source"
 
 test(({ok, end}) => {
   ok(endsWith("period")("I have no period"))
