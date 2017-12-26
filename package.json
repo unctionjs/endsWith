@@ -1,6 +1,6 @@
 {
   "name": "@unction/endswith",
-  "version": "2.8.0",
+  "version": "3.0.0",
   "description": "Determines if a string ends with another string",
   "keywords": [
     "unction",
