@@ -1,11 +1,9 @@
 import {test} from "ramda";
 import escapeStringRegexp from "escape-string-regexp";
-export default function endsWith (subset) {
-  const escaped = escapeStringRegexp(subset);
-  const ending = `${escaped}$`;
+import {TextType} from "./types";
 
-
-  return function endsWithSubset (set) {
-    return test(new RegExp(ending))(set);
+export default function endsWith (subset: TextType | RegExp) {
+  return function endsWithSubset (set: TextType) {
+    return test(new RegExp(`${escapeStringRegexp(subset)}$`))(set);
   };
 }
