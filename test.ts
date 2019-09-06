@@ -1,5 +1,5 @@
 
-import endsWith from "./index.ts";
+import endsWith from "./index";
 
 test(() => {
   expect(endsWith("period")("I have no period")).toBeTruthy();
