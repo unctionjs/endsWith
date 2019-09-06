@@ -1,10 +1,10 @@
 
 import endsWith from "./index";
 
-test(() => {
+test("works", () => {
   expect(endsWith("period")("I have no period")).toBeTruthy();
 });
 
-test(() => {
+test("works", () => {
   expect(endsWith("I have")("I have no period.")).toBeFalsy();
 });
