@@ -54,6 +54,7 @@
   },
   "dependencies": {
     "@types/escape-string-regexp": "2.0.1",
+    "@types/ramda": "0.26.21",
     "escape-string-regexp": "1.0.5",
     "ramda": "0.24.1"
   },
