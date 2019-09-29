@@ -53,6 +53,7 @@
     "typescript": "3.5.1"
   },
   "dependencies": {
+    "@types/escape-string-regexp": "2.0.1",
     "escape-string-regexp": "1.0.5",
     "ramda": "0.24.1"
   },
