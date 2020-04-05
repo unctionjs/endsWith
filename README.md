@@ -4,7 +4,7 @@
 ![Stability][BADGE_STABILITY]
 ![Dependencies][BADGE_DEPENDENCY]
 
-> string | RegExp => string => boolean
+> string => string => boolean
 
 Determines if a given subset of text is at the end of another set of text.
 
